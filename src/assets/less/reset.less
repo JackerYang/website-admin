@@ -1,0 +1,69 @@
+// 全局样式初始化
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+a,
+p,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  border: none;
+  display: inline-block;
+}
+
+.clearfloat {
+  zoom: 1;
+}
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+#app {
+  font-family: "Lantinghei SC", "Open Sans", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun,
+    Arial, sans-serif;
+}
+
+:not(:root):full-screen::backdrop {
+  background: transparent;
+}
+:not(:root):-webkit-full-screen::backdrop {
+  background: transparent;
+}
+:not(:root):-moz-full-screen::backdrop {
+  background: transparent;
+}
+:not(:root):-ms-full-screen::backdrop {
+  background: transparent;
+}
